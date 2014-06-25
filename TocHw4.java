@@ -2,9 +2,9 @@
  * ID: F74009020
  * Author: 姚書涵
  * Description: Parsing real estate
- * 				先抓取道路名稱﹑比對道路名是否有符合要求﹑再來比對道路名與交易年月是否有重複﹑最後再從maxCountIndexList(ArrayList)裡取值(對應到road(ArrayList)的Index)
- * 				其中由於一個道路名會有複數個交易年月﹑因此交易年月用二維的ArrayList來存﹑此外一條道路名只會有一個最高成交價與最低成交價﹑因此以一維來存即可
- * 				maxCountIndexList 存有最多交易次數(最多年月)的那條道路名的Index﹑因此當一讀完JSON就可知道哪條道路的交易次數最多﹑不須重新找
+ * 		先抓取道路名稱﹑比對道路名是否有符合要求﹑再來比對道路名與交易年月是否有重複﹑最後再從maxCountIndexList(ArrayList)裡取值(對應到road(ArrayList)的Index)
+ * 		其中由於一個道路名會有複數個交易年月﹑因此交易年月用二維的ArrayList來存﹑此外一條道路名只會有一個最高成交價與最低成交價﹑因此以一維來存即可
+ * 		maxCountIndexList 存有最多交易次數(最多年月)的那條道路名的Index﹑因此當一讀完JSON就可知道哪條道路的交易次數最多﹑不須重新找
  */
 
 
