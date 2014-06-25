@@ -17,7 +17,6 @@ import java.util.*;
 public class TocHW4 {
 
 	public static void main(String[] args) throws JSONException {
-		// TODO Auto-generated method stub
 		ArrayList<String> road = new ArrayList<String>();
 		ArrayList<Integer> highestPrice = new ArrayList<Integer>();
 		ArrayList<Integer> lowestPrice = new ArrayList<Integer>();
@@ -103,7 +102,6 @@ public class TocHW4 {
 				}
 			}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
